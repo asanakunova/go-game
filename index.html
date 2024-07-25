@@ -3,26 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>GoGames</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Josefin+Sans:wght@200;300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <header id="header">
       <div class="container">
         <div class="header">
           <div class="header_logo">
-            <img src="./image/Final logo 1 1.png" alt="" />
+            <img  data-aos="fade-right" src="./image/Final logo 1 1.png" alt="" />
           </div>
           <div class="nav">
             <a href="#">Home</a>
             <a href="#">About Us</a>
             <a href="#">Prices</a>
             <a href="#">Rules</a>
-            <button>Get Started Now</button>
+            <button  data-aos="fade-left" >Get Started Now</button>
           </div>
         </div>
       </div>
@@ -34,7 +36,7 @@
           <div class="game_text">
             <div class="game_log">
               <h5>Gaming Consoles</h5>
-              <img src="./image/Arrow.png" alt="" />
+              <img  src="./image/Arrow.png" alt="" />
             </div>
             <h1>Try It, Rent It, <span>Save $50!</span></h1>
             <p>
@@ -43,14 +45,14 @@
               point of using Lorem Ipsum is that it has a more-or-less normal
               distribution of letters as opposed.
             </p>
-            <button>Get Started Now</button>
+            <button data-aos="flip-up" >Get Started Now</button>
             <div class="game_text_vector">
-              <img src="./image/Vector (1).png" alt="" />
+              <img  src="./image/Vector (1).png" alt="" />
             </div>
           </div>
           <div class="game_image">
             <img width="567px" src="./image/CFARACTER.png" alt="" />
-            <div class="game_box_vector_one">
+            <div  data-aos="fade-left" class="game_box_vector_one">
               <div class="vector_box">
                 <div class="vector_box_text">
                   <h5>Sony Dualshock 4 Wireless Controller</h5>
@@ -65,7 +67,7 @@
                 </div>
               </div>
             </div>
-            <div class="game_box_vector_two">
+            <div   data-aos="fade-left" class="game_box_vector_two">
               <div class="vector_box_two">
                 <div class="vector_img">
                 <img width="85px" src="./image/img (1).png" alt="" />
@@ -107,7 +109,7 @@
             <div class="glasses_arrow">
               <img src="./image/Group 36.png" alt="">
             </div>
-            <button>Get Started Now</button>
+            <button data-aos="flip-up" >Get Started Now</button>
           </div>
           <div class="glasses_two">
           <div class="glasses_img_two">
@@ -138,7 +140,7 @@
             <div class="series_arrow">
               <img src="./image/Group 36.png" alt="">
             </div>
-            <button>Get Started Now</button>
+            <button data-aos="flip-up" >Get Started Now</button>
           </div>
           <img src="./image/img.png" alt="">
         </div>
@@ -168,7 +170,7 @@
                   <span><ion-icon name="checkmark-outline"></ion-icon>Help center access</span>
                   <span><ion-icon name="checkmark-outline"></ion-icon>10 users included</span>
                 </div>
-                  <button>Select This Plan</button>
+                  <button data-aos="flip-up" >Select This Plan</button>
               </div>
             </div>
             <div class="pricing_box">
@@ -186,7 +188,7 @@
                   <span><ion-icon name="checkmark-outline"></ion-icon>Help center access</span>
                   <span><ion-icon name="checkmark-outline"></ion-icon>10 users included</span>
                 </div>
-                  <button>Select This Plan</button>
+                  <button data-aos="flip-up" >Select This Plan</button>
               </div>
             </div>
             <div class="pricing_box">
@@ -204,7 +206,7 @@
                   <span><ion-icon name="checkmark-outline"></ion-icon>Help center access</span>
                   <span><ion-icon name="checkmark-outline"></ion-icon>10 users included</span>
                 </div>
-                  <button>Select This Plan</button>
+                  <button data-aos="flip-up" >Select This Plan</button>
               </div>
             </div>
           </div>
@@ -235,5 +237,8 @@
     nomodule
     src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"
   ></script>
+  <script>
+      AOS.init();
+    </script>
   </body>
 </html>
